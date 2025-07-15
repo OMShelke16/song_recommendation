@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # === STEP 1: Use your real credentials ===
 client_id = "97e27d968cfc4e76bd40afc79853250f"
-client_secret = "PASTE_YOUR_CLIENT_SECRET_HERE"  # Click "View client secret" to get it
+client_secret = "8ccae09377fc44a9a03a9a8f07a52fb6"  # Click "View client secret" to get it
 
 # === STEP 2: Set up Spotify API client ===
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
